@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "seed:faqs": "node src/seeders/faqSeeder.js"
+    "seed:faqs": "node src/seeders/faqSeeder.js",
+    "build" : "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -27,3 +28,4 @@
     "nodemon": "^3.1.9"
   }
 }
+
