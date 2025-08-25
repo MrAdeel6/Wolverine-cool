@@ -35,7 +35,8 @@ app.use(cors({
     'https://wh-mobt.vercel.app',
     'https://ecom-ui-p9ht.vercel.app',
     'https://wolverine-house.vercel.app',
-    'https://main-web-qbcv.vercel.app'
+    'https://main-web-qbcv.vercel.app',
+    'https://wolverine-house-f932.vercel.app'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
@@ -191,5 +192,6 @@ initializeApp().then(() => {
   });
 
 });
+
 
 
