@@ -32,7 +32,8 @@ app.use(cors({
     'http://192.168.18.118:5173',
     'https://wolverine-house.netlify.app',
     'http://wolverine-house.netlify.app',
-    'https://wh-mobt.vercel.app'
+    'https://wh-mobt.vercel.app',
+    'https://ecom-ui-p9ht.vercel.app/'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
@@ -186,4 +187,5 @@ initializeApp().then(() => {
   server.listen(PORT, () => {
     console.log(`🚀 Server running on port ${PORT}`);
   });
+
 });
